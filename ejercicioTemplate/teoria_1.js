@@ -65,22 +65,22 @@
 //funcion ARROW
 // quitamos la palabra function, y ponemos despues de los params una flecha (=>)
 
-const nombte = (num1, num2) => {
-  return num1 + num2;
-}
+// const nombte = (num1, num2) => {
+//   return num1 + num2;
+// }
 
-const suma = (num1, num2) => {
-  let acces = checkPermissions();
-  if (!acces) return "no puedes entrar":
-  num1 + num2; 
+// const suma = (num1, num2) => {
+//   let acces = checkPermissions();
+//   if (!acces) return "no puedes entrar":
+//   num1 + num2;
 
-Son funciones anónimas( no tienen nombre)
-POdemos obviar el return si es una sola línea, y si es un arrow function
+// Son funciones anónimas( no tienen nombre)
+// POdemos obviar el return si es una sola línea, y si es un arrow function
 
-const cube = num1 => {
-  debugger; 
-  console.log("loquesea");
-  return num1 **3;
-}; 
+// const cube = num1 => {
+//   debugger;
+//   console.log("loquesea");
+//   return num1 **3;
+// };
 
-cube(3;
+// cube(3;
