@@ -84,3 +84,22 @@
 // };
 
 // cube(3;
+
+// Symbol crea valores únicos, es decir
+
+// Objects
+
+// let Objects = {
+
+// }
+
+// las propiedades pueden ser string o symbol (recuerda que symbol crea valores únicos, es decir, name = symbol (x) y name2 = symbol (x) name y name2 serán diferentes)
+
+let obj = {
+    name: "Alex",
+    oranges: 23,
+    apples: 234
+};
+
+let loquesea = prompt("dame apples o oranges")
+obj[loquesea]; para pedir propiedades dinámicas (aquí saldría 234, le está pidiendo la propiedad oranges)
