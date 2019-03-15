@@ -12,7 +12,7 @@
 
 const cube = num1 => {
   for (let i = 0; i < 4; i++) {
-    debugger;
+    // debugger;
     const element = i;
   }
 };
