@@ -51,14 +51,12 @@
 // Una funcion que recibe un string cualquiera y te dice si es palindromo o no
 //se lee igual de izd a der que de der a izda
 
-// function palindromo(name) {
-//   name = name.toLowerCase();
-//   // reversename = name.tolowercase().reverse();
-//   for (let i = 0; i < name.length; i++) {
-//     if (name.charAt(0) == name.charAt(name.length - 1 - i)) {
-//       return alert("Enhorabuena, esto es un palíndromo");
-//     }
-//   }
-// }
-
-// console.log(palindromo("asa"));
+function palindromo(name) {
+  name = name.toLowerCase();
+  // reversename = name.tolowercase().reverse();
+  for (let i = 0; i < name.length; i++) {
+    if (name.charAt(0) == name.charAt(name.length - 1 - i)) {
+      return alert("Enhorabuena, esto es un palíndromo");
+    }
+  }
+}
