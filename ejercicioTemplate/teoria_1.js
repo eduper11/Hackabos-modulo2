@@ -189,7 +189,7 @@ class LoginError extends Error { //muy útil para crear varios tipos de errores
   //haz una función que diga "hola" c/ 3 ses
 
   setTimeout(() {
-//podemos hacer cualquier cosa
+//podemos hacer cualquier cosa dentro de setTimeout, como una función
   }
   ), timeout) //timeout está en ms(milisegundos)
 
@@ -219,10 +219,10 @@ class LoginError extends Error { //muy útil para crear varios tipos de errores
 
   //numeros
 
-  Math.ceil() //lo contrario que el floor
+  Math.ceil() //lo contrario que el floor, devuelve el entero más pequeño mayor o igual a un número dado.
 
   Math.floor()
-//Math.floor((1.74837 * 100) /100) para redondear
+//Math.floor((1.74837 * 100) /100) para redondear a 2 decimales
   //4.1 4
   //4.6 4
 
@@ -246,14 +246,20 @@ class LoginError extends Error { //muy útil para crear varios tipos de errores
 
   let cadena = "ñlaksdjflkjsad";
 
+  //for of (let "" of "string", array...etc)
+
+  //for in (let key in objetc)
+
   for (let letra of cadena) {
-    console.log(letra); //
+    console.log(letra); // coge cada una de las letras del string
   }
 
   cadena. charAt(1)
 cadena.includes() //retorna un true si se incluye el parámetro en un string
 cadena.indexOf() //retorna la posicion donde se encuentra el parámetro en la cadena. si no está, devuelve un -1
   cadena.normalize()
+  cadena.join()
+
 
   //ARRAYS
 
@@ -312,3 +318,20 @@ DEBERES //JSON JS Y FECHAS como manejar una fecha?
 
 let fecha1 = new Date()
 ler ahora = Date.now()
+
+//json no puede llevar comentarios. porque se busca la mayor eficiencia, por eso tiene una estructura muy marcada, para que el flow sea el más óptimo.
+
+librería de fechas: momentjs, dayjs, npmjs(web) para libreríasjs
+
+asincronía
+
+let promesa = new Promise(function(resolve, reject) {
+  setTimeout(() => {
+    resolve("los datos me han llegado perfecto")
+  }, 1000);
+}
+
+promesa
+.then(resultado => console.log(resultado))
+.catch(err => clg(err));
+

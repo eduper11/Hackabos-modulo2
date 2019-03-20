@@ -158,9 +158,9 @@
 
 //EJERCICIO DE DESTRUCTURING
 
-let obj = {
-  window: 100,
-  innerHeight: "2oopx" //...rest => significa "todo el resto"
-};
+// let obj = {
+//   window: 100,
+//   innerHeight: "2oopx" //...rest => significa "todo el resto"
+// };
 
-let { window: w = 0, innerheight } = obj; //con el ejemplo de window estamos llamando a window "w". Si no hubiese nada en window, valdría 0, pero si hay window, prevalece el valor que tiene en el objeto
+// let { window: w = 0, innerheight } = obj; //con el ejemplo de window estamos llamando a window "w". Si no hubiese nada en window, valdría 0, pero si hay window, prevalece el valor que tiene en el objeto
