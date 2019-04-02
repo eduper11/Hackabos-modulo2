@@ -163,13 +163,14 @@ class Acumulador2 {
     let car1 = new Car(3200, true);
 let van1 = new Van("red", 3400, tru
 //si hay un error, va a entrar automáticamente dentro
+
 console.error(e); //imprime por pantalla pero en rojo
 // console.warn(e); //otro tipo de console
   }
 
   error = {
     name : "ReferenceError",
-    message: "";
+    message: "",
     stack: "hay un error at." //es de donde viene el error
 
   }
@@ -335,3 +336,12 @@ promesa
 .then(resultado => console.log(resultado))
 .catch(err => clg(err));
 
+JSON
+let obj = {
+
+  name: "Pepe"
+  age: 48
+};
+let json = JSON.stringify(obj); //este obj es un string ,y ya no está en JSON
+
+let newObj = JSON.parse(json); //pasar json a un object

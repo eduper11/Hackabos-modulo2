@@ -76,10 +76,17 @@
 
 // conversor sexagesimal.
 
-function TimeConvert(num) {
-  let hour = num / 60;
-  let minute = (num - hour) / 60;
-  console.log(minute);
-}
+// function TimeConvert(num) {
+//   let hour = num / 60;
+//   let minute = (num - hour) / 60;
+//   console.log(minute);
+// }
 
-TimeConvert(64);
+// TimeConvert(64);
+
+// function letVowels(str) {
+//   let m = str.match(/[aeiou]/gi);
+//   return m === null ? 0 : m.length;
+// }
+
+// console.log(letVowels("jaimito y su ladrillo"));
